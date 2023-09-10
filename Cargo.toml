@@ -5,7 +5,7 @@
 [package]
 name = "freedesktop_entry_parser"
 version = "1.2.0"
-authors = ["Ben Aaron Goldberg <ben@benaaron.dev>"]
+authors = ["Sashanoraa <sasha@noraa.gay>"]
 description = "A library for parsing FreeDesktop entry files"
 categories = ["os", "os::unix-apis"]
 keywords = ["linux", "icons", "freedesktop"]
@@ -16,6 +16,9 @@ readme = "README.md"
 license = "MPL-2.0"
 include = ["src/**/*", "LICENSE", "README.md"]
 
+[badges.maintenance]
+status = "passively-maintained"
+
 [dependencies]
-nom = "6"
+nom = "7.1"
 thiserror = "1.0"
