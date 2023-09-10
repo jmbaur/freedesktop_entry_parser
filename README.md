@@ -56,6 +56,13 @@ see the [examples in the repo](examples).
 [docs]: https://docs.rs/freedesktop_entry_parser/0.4.0/freedesktop_entry_parser/
 [examples]: https://git.sr.ht/~zethra/freedesktop_entry_parser/tree/master/examples
 
+## MSRV Policy
+
+The current minimum support rustc version is specified above in this readme.
+We reserve the right to change this on minor version increases, but we will
+try to keep it reasonable. Given that this library is feature complete, the
+MSVR will likely only change with our dependencies.
+
 ## Contributing
 
 Please send any and all patches, bugs, and questions to my public inbox
